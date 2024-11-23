@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1294%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1295%26quot%3b)'%3e%3c/rect%3e%3ccircle r='93.335' cx='19.05' cy='64.89' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.335' cx='329.36' cy='374.71' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.335' cx='766.77' cy='816.1' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='173.11' cx='148.38' cy='465.07' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='61' cx='1315.82' cy='295.62' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='170.15' cx='928.56' cy='161.06' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='76.785' cx='159.96' cy='134.6' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='61.065' cx='918.56' cy='80.96' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='51.49' cx='1328.76' cy='434.51' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='49.29' cx='133.4' cy='42.06' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='179.19' cx='39.09' cy='491.54' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='101.095' cx='468.46' cy='31.54' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='146.345' cx='218.32' cy='453.78' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='54.18' cx='1219.25' cy='329.65' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='59.705' cx='1244.82' cy='302.09' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='161.315' cx='785.35' cy='99.83' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='118.625' cx='911.37' cy='104.44' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='63.26' cx='1218.91' cy='443.52' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='167.95' cx='1020.56' cy='89.83' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='124.21' cx='1420.08' cy='122.84' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='113.745' cx='407.05' cy='23.65' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='65.72' cx='1104.57' cy='403.29' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='122.345' cx='712.97' cy='94.97' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='167.375' cx='1084.38' cy='531.73' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='141.375' cx='703.83' cy='173.54' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='80.545' cx='1345.06' cy='312.14' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='84.325' cx='720.68' cy='258.6' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='127.31' cx='1195.73' cy='278.16' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='142.075' cx='487.63' cy='550.04' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='75.405' cx='883.6' cy='425.4' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='58.83' cx='1372.21' cy='461.78' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='184.695' cx='1210.38' cy='408.72' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1294'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1295'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(61%2c 106%2c 163%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    color: #fff;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit; /* Ensures padding and borders are included in element dimensions */
+  }
+  
+  /* Container for the Form */
+  .container {
+    max-width: 400px;
+    width: 90%; /* Responsive width for smaller screens */
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    animation: fadeIn 1.2s ease-in-out;
+    overflow: hidden; /* Prevents overflowing content */
+  }
+  
+  /* Title */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Form Styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 30px; /* Adds space between each field */
+    position: relative;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px; /* Adds space between label and input */
+  }
+  
+  input {
+    width: 100%; /* Ensures inputs stay within the container */
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    background: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 4px 8px rgba(106, 17, 203, 0.2);
+  }
+  
+  /* Error and Success States */
+  input.success {
+    border-color: #28a745;
+  }
+  
+  input.error {
+    border-color: #dc3545;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-size: 12px;
+    position: absolute;
+    bottom: -20px; /* Proper spacing under input fields */
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    margin-top: 5px; /* Adds gap between input and error message */
+  }
+  
+  .error-message.active {
+    opacity: 1;
+    transform: translateY(5px);
+  }
+  
+  /* Button Styling */
+  .btn {
+    background-color: #6a11cb;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%; /* Matches button width to container */
+    margin-top: 20px; /* Spacing between the button and last input field */
+  }
+  
+  .btn:hover {
+    background-color: #2575fc;
+    transform: scale(1.05);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
